@@ -5,10 +5,10 @@
 
 ;~ Send("^{F3}")
 ;~ Sleep(300)
-;~ Send("!á")
-;~ Send("!î")
+;~ Send("!ï¿½")
+;~ Send("!ï¿½")
 ;~ Sleep(300)
-;~ Send("!â")
+;~ Send("!ï¿½")
 ;~ Sleep(500)
 ;~ Send("{DOWN 7}{TAB}")
 ;~ Send("{ENTER}{TAB}")
@@ -17,4 +17,4 @@
 
 ToolTip("This is a tooltip", 0, 0)
 Sleep(4000) ; Sleep to give tooltip time to display
-MsgBox(1,"Ku", "Kuku")
+MsgBox(1,"Ku", "Privet")
