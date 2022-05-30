@@ -15,7 +15,10 @@
 ;~ sm_PG_Text()
 ; This will create a tooltip in the upper left of the screen
 
-ToolTip("This is a tooltip", 0, 0)
-Sleep(4000) ; Sleep to give tooltip time to display
-MsgBox(1,"Ku", "Privet")
-MsgBox()
+;~ ToolTip("This is a tooltip", 0, 0)
+;~ Sleep(4000) ; Sleep to give tooltip time to display
+;~ MsgBox(1,"Ku", "Privet", 3)
+$mb1 = MsgBox(1, "Try", "Тест окошка")
+;~ ConsoleWrite($mb1)
+SplashTextOn("", $mb1)
+sleep(5000)
