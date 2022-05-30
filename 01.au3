@@ -18,3 +18,4 @@
 ToolTip("This is a tooltip", 0, 0)
 Sleep(4000) ; Sleep to give tooltip time to display
 MsgBox(1,"Ku", "Privet")
+MsgBox()
