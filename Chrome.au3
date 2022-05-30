@@ -1,0 +1,8 @@
+AutoItSetOption( "SendKeyDelay", 200)
+Sleep(2000)
+Send("{LWIN}")
+Send("Chrome")
+Send("{ENTER}")
+Sleep(1000)
+Send("ЧП Григоренко")
+Send("{ENTER}")

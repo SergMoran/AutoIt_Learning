@@ -1,0 +1,7 @@
+Sleep(6000)
+WinActivate("Типоразмеры в семействе")
+;~ ControlCommand("Типоразмеры в семействе", "", "Button 6")
+;~ ControlClick("Типоразмеры в семействе", "", "Button 6")
+ControlFocus("Типоразмеры в семействе", "", "Button 6")
+;~ ControlSend("Типоразмеры в семействе", "", "Button 6", "{ENTER}")
+;~ Send( "{ENTER}")

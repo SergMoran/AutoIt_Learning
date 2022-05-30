@@ -1,0 +1,7 @@
+AutoItSetOption("SendKeyDelay", 300)
+Sleep(4000)
+Send("^0")
+Sleep(1000)
+Send("^+n")
+Send("53")
+Send("{ENTER}")
