@@ -22,3 +22,4 @@ $mb1 = MsgBox(1, "Try", "Тест окошка")
 ;~ ConsoleWrite($mb1)
 SplashTextOn("", $mb1)
 sleep(5000)
+;~ Новый комментарий
